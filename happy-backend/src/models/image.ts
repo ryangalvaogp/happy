@@ -14,7 +14,9 @@ export default class Image {
     @Column()
     orphanage_id: string;
 
-    @ManyToOne (()=> Orphanage, (orphanage: { images: Image[]; }) => orphanage.images)
+    @ManyToOne (()=> Orphanage, orphanage => orphanage.images)
     @JoinColumn({name:'orphanage_id'})
+
+    
     orphanage:Orphanage;
 }

@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "express-async-errors": "^3.1.1",
+    "yup": "^0.29.3"
+  },
+  "devDependencies": {
+    "@types/yup": "^0.29.8"
+  }
+}

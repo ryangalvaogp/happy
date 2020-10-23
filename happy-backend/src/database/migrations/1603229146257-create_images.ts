@@ -30,8 +30,8 @@ export class createImages1603229146257 implements MigrationInterface {
                     columnNames:['orphanage_id'],
                     referencedTableName:'orphanages',
                     referencedColumnNames:['id'],
-                    onUpdate:'cascade',
-                    onDelete:'cascade',
+                    onUpdate:'CASCADE',
+                    onDelete:'CASCADE',
                 }
             ]
         }))
