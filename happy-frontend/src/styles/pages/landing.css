@@ -1,12 +1,15 @@
 #page-landing{
+    padding: 20px 0px 20px 0px;
     width: 100vw;
     height: 100vh;
-    /* Gradiente / Blue */
-background: linear-gradient(329.54deg, #29B6D1 0%, #00C7C7 100%);
-
-display: flex;
-justify-content: center;
-align-items: center;
+    background: linear-gradient(329.54deg, #29B6D1 0%, #00C7C7 100%);
+    
+    
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
 }
 
 #page-landing .content-wrapper{
@@ -28,7 +31,7 @@ align-items: center;
 
 
     background: url('../../images/Ilustra02.svg') no-repeat 80% center;
-
+    background-size: contain;
 }
 #page-landing .content-wrapper main  {
     max-width: 350px;
