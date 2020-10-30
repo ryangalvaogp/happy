@@ -57,9 +57,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
  
 
 ## :octocat: Projeto
-Happy é uma aplicação para cadastro de orfanatos que foi idealizada em homenagem ao dia das crianças, sem fins lucrativos.
-O backend foi criado em Node.js com Typescript, api com sqlite e é responsável por cadastrar informações dos orfanatos, utilização do ORM para API e integração com sistema de upload de imagens. 
-O frontend da aplicação foi desenvolvida com React via Typescript, em estilo de Landing page.
+Happy é uma aplicação para cadastro e promoção de orfanatos que foi idealizada pela Rocketseat em homenagem ao dia das crianças, sem fins lucrativos. O backend foi desenvolvido em Node.js com Typescript, api com sqlite, utilizando Type ORM para interação com DB e integração com sistema de upload de imagens. O frontend da aplicação foi desenvolvida com React via Typescript, em estilo de Landing page.
 
 ## :anger: Pré-requisitos:
  - Ter o ambiente preparado com nodejs, node, npm, yarn.
